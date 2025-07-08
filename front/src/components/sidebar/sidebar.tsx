@@ -14,7 +14,7 @@ export const Sidebar = ({ expanded, setExpanded }: SidebarProps) => {
      const location = useLocation();
      return (
           <aside className="h-screen fixed inset-y-0 left-0 z-50">
-               <nav className="h-full flex flex-col bg-gray-800 justify-between items-center">
+               <nav className="h-full flex flex-col bg-white justify-between items-center">
 
                     {/* Top: Logo */}
                     <div className="p-2 pb-2">

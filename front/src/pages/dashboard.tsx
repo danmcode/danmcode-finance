@@ -1,14 +1,14 @@
 import { ChevronLeft, Search } from "lucide-react";
+import { Greeting } from "../components/atoms/Greeting";
 
 // src/pages/dashboard.tsx
 export default function Dashboard() {
      return (
           <>
-               {/* Contenido principal del dashboard */}
-               <h2 className="text-3xl font-semibold text-gray-800 mb-6">Good Morning, Matt!</h2>
-               <p className="text-gray-600 mb-8">Welcome to Finance Management Dashboard</p>
+               {/* Greeting to User */}
+               <Greeting />
 
-               <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+               <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6">
 
                     {/* Tarjeta de Total Income */}
                     <div className="bg-white p-6 rounded-lg shadow-md">

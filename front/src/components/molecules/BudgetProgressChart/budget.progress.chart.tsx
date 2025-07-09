@@ -9,7 +9,6 @@ import {
 } from "recharts";
 import { useState } from "react";
 
-// Data por mes
 type DataItem = {
     month: string;
     ingreso: number;
